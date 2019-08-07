@@ -1,0 +1,4 @@
+import itertools
+u=input("enter the numbers")
+z=list(itertools.permutations(u))
+print(z)
