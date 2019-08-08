@@ -1,0 +1,12 @@
+x=str(input("enter the sentence :"))
+y=("abcdefghijklmnopqrstuvwyzABCDEFGHIJKLMNOPQRSTUVWXYZ")
+z=("0123456789")
+c=0
+d=0
+for i in x:
+    if i in y:
+        c=c+1
+    elif i in z:
+        d=d+1
+print("the no of letters",c)
+print("the no of digits",d)
